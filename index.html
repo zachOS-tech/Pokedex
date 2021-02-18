@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokeDex</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="pokedex">
+      <div class="main-container">
+        <div class="hinge"></div>
+        <div class="blue-light"></div>
+        <div class="lights">
+          <div class="red"></div>
+          <div class="yellow"></div>
+          <div class="green"></div>
+        </div>
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+        <div class="screen-border">
+          <div class="corner-triangle"></div>
+          <div class="red-dot-1"></div>
+          <div class="red-dot-2"></div>
+          <div class="screen">
+            <img
+              class="pokemon-picture"
+            />
+          </div>
+          <div class="red-dot-3"></div>
+          <div class="speakerbars">
+            <div class="speakerbar"></div>
+            <div class="speakerbar"></div>
+            <div class="speakerbar"></div>
+            <div class="speakerbar"></div>
+          </div>
+        </div>
+        <div class="black-button"></div>
+        <div class="red-pill-button"></div>
+        <div class="blue-pill-button"></div>
+        <input class="number-input" type="number" placeholder="000" value="" maxlength="3" min="1" max="898"></input>
+        <div class="d-pad">
+          <div class="circle"></div>
+        </div>
+      </div>
+      <div class="flap-container">
+        <div class="large-screen">
+          <p>Name: <span id="name">?</span></p>
+          <p>Height: <span id="height">?</span></p>
+          <p>Weight: <span id="weight">?</span></p>
+        </div>
+        <div class="blue-buttons">
+          <div class="blue-button"></div>
+          <div class="blue-button"></div>
+          <div class="blue-button"></div>
+          <div class="blue-button"></div>
+          <div class="blue-button"></div>
+          <div class="blue-button"></div>
+          <div class="blue-button"></div>
+          <div class="blue-button"></div>
+          <div class="blue-button"></div>
+          <div class="blue-button"></div>
+        </div>
+        <div class="black-pill-buttons">
+          <div class="black-pill-button"></div>
+          <div class="black-pill-button"></div>
+        </div>
+        <div class="white-buttons">
+          <div class="white-button"></div>
+          <div class="white-button"></div>
+        </div>
+        <div class="yellow-light"></div>
+        <div class="small-screens">
+          <div class="small-screen-flap">
+            <p id="type-1"></p>
+          </div>
+          <div class="small-screen-flap">
+            <p id="type-2"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
