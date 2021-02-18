@@ -26,6 +26,7 @@ const getPokemon = (num) => {
       height.innerHTML = `${data.height * 10} cm`;
       weight.innerHTML = `${data.weight / 10} kg`;
       type1.innerHTML = data.types[0].type.name;
+      type2.innerHTML = "___";
       type2.innerHTML = data.types[1].type.name;
     });
 };
